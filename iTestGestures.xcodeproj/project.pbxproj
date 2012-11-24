@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		805386DA1583818E00E6FBD0 /* myGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 805386D91583818E00E6FBD0 /* myGesture.m */; };
+		8053870E1583CBBE00E6FBD0 /* MyView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8053870D1583CBBE00E6FBD0 /* MyView2.m */; };
 		80C2C6991583098E00D66B18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C2C6981583098E00D66B18 /* UIKit.framework */; };
 		80C2C69B1583098E00D66B18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C2C69A1583098E00D66B18 /* Foundation.framework */; };
 		80C2C69D1583098E00D66B18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C2C69C1583098E00D66B18 /* CoreGraphics.framework */; };
@@ -15,22 +17,29 @@
 		80C2C6A91583098E00D66B18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C2C6A81583098E00D66B18 /* AppDelegate.m */; };
 		80C2C6AC1583098E00D66B18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C2C6AB1583098E00D66B18 /* ViewController.m */; };
 		80C2C6AF1583098E00D66B18 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80C2C6AD1583098E00D66B18 /* ViewController.xib */; };
+		80C2C6B71583108D00D66B18 /* myView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C2C6B61583108D00D66B18 /* myView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		805386D81583818E00E6FBD0 /* myGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myGesture.h; sourceTree = "<group>"; };
+		805386D91583818E00E6FBD0 /* myGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myGesture.m; sourceTree = "<group>"; };
+		8053870C1583CBBE00E6FBD0 /* MyView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView2.h; sourceTree = "<group>"; };
+		8053870D1583CBBE00E6FBD0 /* MyView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView2.m; sourceTree = "<group>"; };
 		80C2C6941583098D00D66B18 /* iTestGestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTestGestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C2C6981583098E00D66B18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		80C2C69A1583098E00D66B18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		80C2C69C1583098E00D66B18 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		80C2C6A01583098E00D66B18 /* iTestGestures-Info.plist */ = {isa = PBXFileReference; path = "iTestGestures-Info.plist"; sourceTree = "<group>"; };
+		80C2C6A01583098E00D66B18 /* iTestGestures-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTestGestures-Info.plist"; sourceTree = "<group>"; };
 		80C2C6A21583098E00D66B18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		80C2C6A41583098E00D66B18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		80C2C6A61583098E00D66B18 /* iTestGestures-Prefix.pch */ = {isa = PBXFileReference; path = "iTestGestures-Prefix.pch"; sourceTree = "<group>"; };
-		80C2C6A71583098E00D66B18 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		80C2C6A61583098E00D66B18 /* iTestGestures-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTestGestures-Prefix.pch"; sourceTree = "<group>"; };
+		80C2C6A71583098E00D66B18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		80C2C6A81583098E00D66B18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		80C2C6AA1583098E00D66B18 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		80C2C6AA1583098E00D66B18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		80C2C6AB1583098E00D66B18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		80C2C6AE1583098E00D66B18 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		80C2C6B51583108D00D66B18 /* myView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myView.h; sourceTree = "<group>"; };
+		80C2C6B61583108D00D66B18 /* myView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +90,13 @@
 				80C2C6A81583098E00D66B18 /* AppDelegate.m */,
 				80C2C6AA1583098E00D66B18 /* ViewController.h */,
 				80C2C6AB1583098E00D66B18 /* ViewController.m */,
+				805386D81583818E00E6FBD0 /* myGesture.h */,
+				805386D91583818E00E6FBD0 /* myGesture.m */,
 				80C2C6AD1583098E00D66B18 /* ViewController.xib */,
+				8053870C1583CBBE00E6FBD0 /* MyView2.h */,
+				8053870D1583CBBE00E6FBD0 /* MyView2.m */,
+				80C2C6B51583108D00D66B18 /* myView.h */,
+				80C2C6B61583108D00D66B18 /* myView.m */,
 				80C2C69F1583098E00D66B18 /* Supporting Files */,
 			);
 			path = iTestGestures;
@@ -164,6 +179,9 @@
 				80C2C6A51583098E00D66B18 /* main.m in Sources */,
 				80C2C6A91583098E00D66B18 /* AppDelegate.m in Sources */,
 				80C2C6AC1583098E00D66B18 /* ViewController.m in Sources */,
+				80C2C6B71583108D00D66B18 /* myView.m in Sources */,
+				805386DA1583818E00E6FBD0 /* myGesture.m in Sources */,
+				8053870E1583CBBE00E6FBD0 /* MyView2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +295,7 @@
 				80C2C6B41583098E00D66B18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
